@@ -9,14 +9,13 @@ function App() {
   }, [])
 
   const onClose = () => {
-    tg.close()
+    tg.close();
   }
 
   return (
     <div className="App">
       work
       <button onClick={onClose()}>Close</button>
-      <button>pirin</button>
     </div>
   )
 }
